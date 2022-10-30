@@ -1,1 +1,1 @@
-export {}
+import REACT from 'next';
