@@ -9,12 +9,12 @@ const Home: NextPage<HomeProps> = () => {
   return (
     <ApplicationWrapper
       title="Home"
-      description="Home of the rootlab movies website"
+      description="Home of the Giubert's bicycles website"
     >
-      <div className="grow flex flex-col justify-center items-center bg-[url('/images/home-bg.jpg')]">
+      <div className="grow flex flex-col justify-center items-center bg-[url('/images/home-bike.jpg')]">
         <div className="grow bg-black w-full justify-center items-center flex opacity-70">
-          <h1 className="text-7xl font-bold underline text-white">
-            Bienvenidos a Rootlab Movies
+          <h1 className="text-7xl font-bold text-white">
+            Giubert Di Lapi bicycle catalogue
           </h1>
         </div>
       </div>

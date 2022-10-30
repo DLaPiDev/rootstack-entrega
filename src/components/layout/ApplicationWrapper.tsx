@@ -12,7 +12,7 @@ export const ApplicationWrapper: FC<PropsWithChildren<TProps>> = ({
   description,
   children,
 }) => {
-  const displayTitle = `${title} | Rootlab Movies`;
+   const displayTitle = `${title} | Rootlab Bike Catalogue`;
 
   return (
     <div className="bg-black min-h-screen flex flex-col">
@@ -21,7 +21,7 @@ export const ApplicationWrapper: FC<PropsWithChildren<TProps>> = ({
         {description && <meta name="description" content={description} />}
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="bg-white h-20">
+      <header className="bg-white h-20 text-black">
         <Nav />
       </header>
       <main className="grow flex flex-col text-white">{children}</main>

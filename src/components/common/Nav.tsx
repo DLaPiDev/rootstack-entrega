@@ -8,8 +8,8 @@ export const Nav: FC = () => {
         <a>Home</a>
       </Link>
       {/* -- 5px -- */}
-      <Link href="/movies">
-        <a>Movies</a>
+      <Link href="../bikes">
+        <a>Bikes</a>
       </Link>
     </nav>
   );
