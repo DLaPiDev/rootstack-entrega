@@ -38,15 +38,15 @@ const BikeDetailPage: NextPage<TProps> = ({bike}) => {
     );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
-    const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/bikes/${context.params?.id}`
-    );
-    const bike = await res.json();
-    return{
-        props:{
-            bike,
-        },
-    };
-};
-export default BikeDetailPage;
+//export const getServerSideProps: GetServerSideProps = async (context) => {
+  //  const res = await fetch(
+ //       `${process.env.NEXT_PUBLIC_API_URL}/bikes/${context.params?.id}`
+ //   );
+ //   const bike = await res.json();
+  //  return{
+ //       props:{
+  //          bike,
+  //      },
+ //   };
+//};
+//export default BikeDetailPage;
