@@ -20,16 +20,16 @@ const Bikes: NextPage<TProps> = ({bikes}) => {
 
 export default Bikes;
 
-export const getStaticProps : GetStaticProps = async (context) => {
-    const bikes = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/bikes`)
-        .then((res) => res.json({bikes: bikes||[] }))
-        .then((data: IBike[]) => data.slice(0,6))
-        .catch((error) => console.error())
-    return {
-        props: {
-          //  bikes
+//export const getStaticProps : GetStaticProps = async (context) => {
+   // const bikes = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/bikes`)
+    //    .then((res) => res.json({bikes: bikes||[] }))
+  //      .then((data: IBike[]) => data.slice(0,6))
+ //       .catch((error) => console.error())
+//    return {
+  //      props: {
+ //         //  bikes
         },
 
-       revalidate: 10
-    };
-};
+ //      revalidate: 10
+//    };
+//};
