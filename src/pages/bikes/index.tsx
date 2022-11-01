@@ -30,6 +30,6 @@ export const getStaticProps : GetStaticProps = async (context) => {
           //  bikes
         },
 
-       // revalidate: 10
+       revalidate: 10
     };
 };
