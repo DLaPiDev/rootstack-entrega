@@ -27,7 +27,7 @@ export const getStaticProps : GetStaticProps = async (context) => {
         .catch((error) => console.error())
     return {
         props: {
-            bikes
+          //  bikes
         },
 
        // revalidate: 10
