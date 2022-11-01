@@ -14,7 +14,7 @@ export default function handler(
         Description:
           "You never forget your first taste of real speed, you know, the kind that brings an ear-to-ear grin you just can't seem to shake. Not to worry, from grinning to winning, the Epic Comp has you covered.",
         TypeOfBike: "All Terrain",
-        Image: "/0.jpg",
+        Image: "/images/0.jpg",
       },
       {
         id: 1,
@@ -23,7 +23,7 @@ export default function handler(
         Description:
           "The all-new Chisel has been purpose-built to tackle modern cross country trails and race courses with the utmost speed. In fact, it shares many of the same modern features as its Epic Hardtail sibling, but in a more budget-friendly package—making it the most efficient and capable alloy hardtail out there.",
         TypeOfBike: "All Terrain",
-        Image: "/1.jpg",
+        Image: "/images/1.jpg",
       },
       {
         id: 2,
@@ -32,7 +32,7 @@ export default function handler(
         Description:
           "Yep, we just re-read the spec sheet and still can’t believe it either. The Rockhopper Elite is one helluva lot of bike.",
         TypeOfBike: "All Terrain",
-        Image: "/2.jpg",
+        Image: "/images/2.jpg",
       },
       {
         id: 3,
@@ -41,7 +41,7 @@ export default function handler(
         Description:
           "The all-new Levo delivers the unbelievable power to ride more trails through an unequaled combination of ride quality, usable power, and ride anywhere range. It’s the distillation, application, and amplification of a 40-year obsession with creating the world’s best riding mountain bikes. Since its introduction, Levo has set the bar every other e-MTB aims for, and the new Levo raises that bar again.",
         TypeOfBike: "All Terrain",
-        Image: "/3.jpg",
+        Image: "/images/3.jpg",
       },
       {
         id: 4,
@@ -50,7 +50,7 @@ export default function handler(
         Description:
           "When we developed the Tarmac Disc, we didn't just want it to be fast. We wanted it to be fast everywhere. Long climbs, windy flats, Grand Tour stages, local fondos—we built a race bike to be the most complete out there. How’d we do it? We started with our Rider-First Engineered™ frame with a perfectly-tuned ride quality for every size, added in some serious aero tech that makes it 30 seconds faster over 40 kilometers than the Tarmac SL5, and then made it 20% lighter. Nothing is lighter, faster, and better handling.",
         TypeOfBike: "Road Aero",
-        Image: "/4.jpg",
+        Image: "/images/4.jpg",
       },
       {
         id: 5,
@@ -59,7 +59,7 @@ export default function handler(
         Description:
           "With seven wins at Paris-Roubaix, our Roubaix has proven that Smoother is Faster. Until this moment, however, smooth has admittedly come with some compromises. But not anymore. The all-new Roubaix Sport now delivers compliance without compromise by introducing a radical new Future Shock 1.5 that gives you more control on rough roads, a new Pavé seatpost that creates our most balanced Roubaix to date, aerodynamics that equal the Tarmac, and a Rider-First Engineered™ frame that’s shed some serious weight. Is it still comfortable? Sure, but don’t call it a comfort bike, because performance was behind every engineering decision we made. This is the new Roubaix.",
         TypeOfBike: "Road Aero",
-        Image: "/5.jpg",
+        Image: "/images/5.jpg",
       },
     ],
   });
