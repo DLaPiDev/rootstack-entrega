@@ -28,7 +28,7 @@ export default Bikes;
 //    return {
   //      props: {
  //         //  bikes
-        },
+     //   },
 
  //      revalidate: 10
 //    };
