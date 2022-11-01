@@ -7,7 +7,7 @@ interface TProps {
     response: string;
   }
 
-const Bikes: NextPage<TProps> = ( ) => {
+const Bikes: NextPage<TProps> = ({bikes}) => {
     return (
         <ApplicationWrapper
             title = "Bikes"
